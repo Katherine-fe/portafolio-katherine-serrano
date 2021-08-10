@@ -8,7 +8,7 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #4070F4;
+  --first-color: #588d8b;
   --second-color: #0E2431;
 }
 
@@ -291,14 +291,26 @@ img{
 .skills__html{
   width: 95%;
 }
+.skills__scrum{
+  width: 90%;
+}
 .skills__css{
   width: 85%;
 }
 .skills__js{
-  width: 65%;
+  width: 80%;
 }
 .skills__ux{
-  width: 85%;
+  width: 75%;
+}
+.skills__java{
+  width: 70%;
+}
+.skills__word{
+  width: 74%;
+}
+.skills__bd{
+  width: 79%;
 }
 .skills__img{
   border-radius: .5rem;
@@ -320,7 +332,21 @@ img{
 .work__img img:hover{
   transform: scale(1.1);
 }
-
+.button-proy{
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 5px;
+}
+.p-proy{
+  text-align: center;
+}
+.info-div{
+  margin: 10px;
+}
+.text-size{
+  size: 9px;
+}
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;
@@ -341,6 +367,21 @@ img{
   margin-left: auto;
 }
 
+.home__social-icon2{
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 120px;
+  color: var(--second-color);
+}
+
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 /* ===== FOOTER =====*/
 .footer{
   background-color: var(--second-color);
@@ -352,14 +393,6 @@ img{
 .footer__title{
   font-size: 2rem;
   margin-bottom: var(--mb-4);
-}
-.footer__social{
-  margin-bottom: var(--mb-4);
-}
-.footer__icon{
-  font-size: 1.5rem;
-  color: #fff;
-  margin: 0 var(--mb-2)
 }
 
 /* ===== MEDIA QUERIES=====*/
