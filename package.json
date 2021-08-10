@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-responsive-complete",
+  "main": "index.html",
+  "dependencies": {
+    "serve": "^12.0.0"
+  },
+  "scripts": {
+    "start": "serve ./"
+  },
+  "description": "A clean and nice web portfolio for designer or developer. That includes almost everything you want to show. At first, your name, links to social networks and a great image. Then the About section displays more information about you. Then the list of Skills it offers. It also has a section where it shows some recent work. And at the bottom it has a form, and at the end with a footer.",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katherine-fe/portfolio-responsive-complete.git"
+  },
+  "author": "Katherine Serrano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katherine-fe/portfolio-responsive-complete/issues"
+  },
+  "homepage": "https://github.com/Katherine-fe/portfolio-responsive-complete#readme"
+}
